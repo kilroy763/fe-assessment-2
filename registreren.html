@@ -1,97 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <title>Registreren</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <title>Registreren</title>
 </head>
+
 <body>
 
-    <form action="dashboard.html" method="POST">
-        <h1 >Registreren</h1>
-<fieldset>
-    <legend>Gegevens voor de website</legend>
-          <label for="name">Naam</label>
-          <input
-            type="name"
-            id="name"
-            name="name"        
-            placeholder="Jan Bakker"
-          />
+  <form action="dashboard.html" method="POST">
+    <h1>Registreren</h1>
 
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"     
-            placeholder="jan@gmail.com"
+    <fieldset>
+      <legend>Gegevens voor de website</legend>
+      <label for="name">Naam</label>
+      <input type="name" id="name" placeholder="Jan Bakker" />
 
-          />
+      <label for="email">Email</label>
+      <input type="email" id="email"  placeholder="jan@gmail.com" />
 
-          <label for="password">Wachtwoord</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="******"
-          />
+      <label for="password">Wachtwoord</label>
+      <input type="password" id="password" placeholder="******" />
 
-          <label for="password2">Herhaal Wachtwoord</label>
-          <input
-            type="password"
-            id="password"
-            name="password2"
-            placeholder="******"
-          />
+      <label for="password2">Herhaal Wachtwoord</label>
+      <input type="password" id="password" placeholder="******" />
 
-        </fieldset>
-<fieldset>
-  <legend>Persoonlijke gegevens</legend>
-          <label for="age">Geboortedatum</label>
-          <input type="date" id="age" name="age">
+    </fieldset>
 
-          <label for="woonplaats">Woonplaats</label>
-          <input type="text" id="woonplaats" placeholder="Amsterdam">
+    <fieldset>
+      <legend>Persoonlijke gegevens</legend>
+      <label for="age">Geboortedatum</label>
+      <input type="date" id="age" >
+
+      <label for="woonplaats">Woonplaats</label>
+      <input type="text" id="woonplaats" placeholder="Amsterdam">
 
 
-          <fieldset class="test"> 
-            <legend>Ik ben een</legend>
-            <p>Ik ben een:</p>
-            <select >
-              <option value="man">Man</option>
-              <option value="vrouw">Vrouw</option>
-              <option value="anders">Anders</option>
-            </select>
-        </fieldset>
-
-        <fieldset>
-          <legend>ik zoek een</legend>
-          <p>Ik zoek een:</p>
-          <select >
+        <fieldset class="test">
+          <legend>Ik ben een</legend>
+          <p>Ik ben een:</p>
+          <select>
             <option value="man">Man</option>
             <option value="vrouw">Vrouw</option>
             <option value="anders">Anders</option>
           </select>
         </fieldset>
 
-        <label for="img">Profielfoto</label>
-        <input type="file" id="img" name="img" accept="image/*" onchange="ziebestand()">
-        <img src="img/user.png" height="200" alt="Image preview...">
-
+        <fieldset>
+          <legend>ik zoek een</legend>
+          <p>Ik zoek een:</p>
+          <select>
+            <option value="man">Man</option>
+            <option value="vrouw">Vrouw</option>
+            <option value="anders">Anders</option>
+          </select>
         </fieldset>
-        <button>Inloggen</button>
-         <button type="submit" id="submit" onclick="waarde()"> Registeren</button>
 
-      </form>
+      <label for="img">Profielfoto</label>
+      <input type="file" id="img"  accept="image/*" onchange="ziebestand()">
+      <img src="img/user.png" alt="afbeelding voorbeeld">
 
-  
-  
-<script src="javascript/script.js"></script>
+    </fieldset>
+    <button>Inloggen</button>
+    <button  onclick="waarde()"> Registeren</button>
+
+  </form>
+
+
+
+  <script src="javascript/script.js"></script>
 </body>
+
 </html>
-
-
-
-
