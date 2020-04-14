@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Bewerk je account</title>
 </head>
 <body>
 
     <form action="dashboard.html" method="POST">
-        <h1 >Bewerk gegevens</h1>
+        <h1 >Bewerken</h1>
 <fieldset>
     <legend>Gegevens voor de website</legend>
           <label for="name">Naam</label>
@@ -16,7 +18,7 @@
             type="name"
             id="name"
             name="name"        
-            placeholder="Max"
+            placeholder="Max Mulder"
           />
 
           <label for="email">Email</label>
@@ -33,7 +35,7 @@
             type="password"
             id="password"
             name="password"
-            placeholder="********"
+            placeholder="******"
           />
 
           <label for="password2">Herhaal Wachtwoord</label>
@@ -41,45 +43,45 @@
             type="password"
             id="password"
             name="password2"
-            placeholder="*********"
+            placeholder="******"
           />
 
         </fieldset>
 <fieldset>
   <legend>Persoonlijke gegevens</legend>
           <label for="age">Geboortedatum</label>
-          <input type="date" id="age" name="age" placeholder="02-01-2001">
+          <input type="date" id="age" name="age">
 
           <label for="woonplaats">Woonplaats</label>
           <input type="text" id="woonplaats" placeholder="Hilversum">
 
 
-          <fieldset>
+          <fieldset class="test"> 
             <legend>Ik ben een</legend>
-          <label for="">Man</label>
-          <input type="radio" id="gndr1" name="gndru" value="man" checked>
-          <label for="">Vrouw</label>
-          <input type="radio" id="gndr1" name="gndru" value="vrouw">
-          <label for="">Anders</label>
-          <input type="radio" id="gndr1" name="gndru" value="anders">
+            <p>Ik ben een:</p>
+            <select >
+              <option value="man">Man</option>
+              <option value="vrouw">Vrouw</option>
+              <option value="anders">Anders</option>
+            </select>
         </fieldset>
 
         <fieldset>
           <legend>ik zoek een</legend>
-
-          <label for="">Man</label>
-          <input type="radio" id="gndr2" name="gndrs" value="man" >
-          <label for="">Vrouw</label>
-          <input type="radio" id="gndr2" name="gndrs" value="vrouw" checked>
-          <label for="">Anders</label>
-          <input type="radio" id="gndr2" name="gndrs" value="anders">
+          <p>Ik zoek een:</p>
+          <select >
+            <option value="man">Man</option>
+            <option value="vrouw">Vrouw</option>
+            <option value="anders">Anders</option>
+          </select>
         </fieldset>
 
         <label for="img">Profielfoto</label>
         <input type="file" id="img" name="img" accept="image/*">
 
         </fieldset>
-         <button type="submit" class="submit">Bewerk</button>
+        <button>Bewerken</button>
+         <button type="submit" class="submit">Annuleren</button>
 
       </form>
 
