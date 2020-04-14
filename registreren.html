@@ -77,17 +77,18 @@
         </fieldset>
 
         <label for="img">Profielfoto</label>
-        <input type="file" id="img" name="img" accept="image/*">
+        <input type="file" id="img" name="img" accept="image/*" onchange="ziebestand()">
+        <img src="img/user.png" height="200" alt="Image preview...">
 
         </fieldset>
         <button>Inloggen</button>
-         <button type="submit" class="submit">Registeren</button>
+         <button type="submit" id="submit" onclick="waarde()"> Registeren</button>
 
       </form>
 
   
   
-
+<script src="javascript/script.js"></script>
 </body>
 </html>
 

@@ -108,6 +108,8 @@ input[type="radio"] {
 
   img {
       border-radius: 25px;
+      display: block;
+      margin: 0 auto;
   }
 
   .ww {
