@@ -7,8 +7,8 @@
 </head>
 <body>
 
-    <form action="registreren.html" method="POST">
-        <h1 >Registreren</h1>
+    <form action="dashboard.html" method="POST">
+        <h1 >Bewerk gegevens</h1>
 <fieldset>
     <legend>Gegevens voor de website</legend>
           <label for="name">Naam</label>
@@ -16,7 +16,7 @@
             type="name"
             id="name"
             name="name"        
-            placeholder="Naam"
+            placeholder="Max"
           />
 
           <label for="email">Email</label>
@@ -24,7 +24,7 @@
             type="email"
             id="email"
             name="email"     
-            placeholder="Email"
+            placeholder="itzmaxkiljan@hotmail.com"
 
           />
 
@@ -33,7 +33,7 @@
             type="password"
             id="password"
             name="password"
-            placeholder="Wachtwoord"
+            placeholder="********"
           />
 
           <label for="password2">Herhaal Wachtwoord</label>
@@ -41,23 +41,23 @@
             type="password"
             id="password"
             name="password2"
-            placeholder="Herhaal Wachtwoord"
+            placeholder="*********"
           />
 
         </fieldset>
 <fieldset>
   <legend>Persoonlijke gegevens</legend>
           <label for="age">Geboortedatum</label>
-          <input type="date" id="age" name="age">
+          <input type="date" id="age" name="age" placeholder="02-01-2001">
 
           <label for="woonplaats">Woonplaats</label>
-          <input type="text" id="woonplaats">
+          <input type="text" id="woonplaats" placeholder="Hilversum">
 
 
           <fieldset>
             <legend>Ik ben een</legend>
           <label for="">Man</label>
-          <input type="radio" id="gndr1" name="gndru" value="man" required>
+          <input type="radio" id="gndr1" name="gndru" value="man" checked>
           <label for="">Vrouw</label>
           <input type="radio" id="gndr1" name="gndru" value="vrouw">
           <label for="">Anders</label>
@@ -68,9 +68,9 @@
           <legend>ik zoek een</legend>
 
           <label for="">Man</label>
-          <input type="radio" id="gndr2" name="gndrs" value="man" required>
+          <input type="radio" id="gndr2" name="gndrs" value="man" >
           <label for="">Vrouw</label>
-          <input type="radio" id="gndr2" name="gndrs" value="vrouw">
+          <input type="radio" id="gndr2" name="gndrs" value="vrouw" checked>
           <label for="">Anders</label>
           <input type="radio" id="gndr2" name="gndrs" value="anders">
         </fieldset>
@@ -79,8 +79,8 @@
         <input type="file" id="img" name="img" accept="image/*">
 
         </fieldset>
-         <button type="submit" class="submit">Registeren</button>
-   <a href="inloggen.html">Klik hier als je al een account hebt</a>
+         <button type="submit" class="submit">Bewerk</button>
+
       </form>
 
   
@@ -92,5 +92,3 @@
 
 
 
-
-<!-- register pagina-->
