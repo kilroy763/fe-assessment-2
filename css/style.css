@@ -5,7 +5,7 @@
 
 button {
     border: none;
-    background-color:#ff5722;
+    background-color: #ff5722;
     color: black;
     width: 250px;
     height: 50px;
@@ -15,7 +15,7 @@ button {
     font-size: 25px;
 }
 
-button:hover{
+button:hover {
     background-color: #cf3304;
 }
 
@@ -25,7 +25,8 @@ a {
     background-color: white;
 }
 
-h1, h3 {
+h1,
+h3 {
     background-color: white;
     border-radius: 25px;
 }
@@ -36,7 +37,7 @@ form {
     text-align: center;
     margin: 0 auto;
     border-radius: 25px;
-  
+
 }
 
 input {
@@ -47,22 +48,22 @@ input {
     border-radius: 25px;
     border: none;
     height: 20px;
-    border-bottom:1px solid #ff5722;
+    border-bottom: 1px solid #ff5722;
     text-align: center;
     margin-bottom: 25px;
-  }
+}
 
-  input::placeholder {
-text-align: center;
-  }
-  
+input::placeholder {
+    text-align: center;
+}
 
 
-  label {
+
+label {
     display: block;
     padding-top: 20px;
     background-color: white;
-  }
+}
 
 
 fieldset {
@@ -79,47 +80,59 @@ legend {
 input[type="radio"] {
     display: flex;
     margin: 0;
-    
-  }
 
-  fieldset fieldset label {
-    padding-top:0;
+}
+
+fieldset fieldset label {
+    padding-top: 0;
     display: flex;
 
-  }
+}
 
-  p {
-      background-color: white;
-      margin-bottom: 0;
-  }
+p {
+    background-color: white;
+    margin-bottom: 0;
+}
 
-  select{
-      background-color: white;
-      width: 200px;
-  }
+select {
+    background-color: white;
+    width: 200px;
+}
 
-  main{
-      width: 500px;
-      margin: 0 auto;
-      text-align: center;
-      background-color: white;
-      border-radius: 25px 25px 0px 0px;
-  }
+main {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px 25px 0px 0px;
+}
 
-  img {
-      border-radius: 25px;
-      display: block;
-      margin: 0 auto;
-      height: 200px;
-  }
+img {
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+}
 
-  .ww {
-      width: 500px;
-      height: 40px;
-      border-radius: 0px;
-      background-color: #29ffe2;;
-  }
+.ww {
+    width: 500px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #29ffe2;
+    ;
+}
 
-  .ww:hover{
-    background-color: #0ba18d;;
-  }
+.ww:hover {
+    background-color: #0ba18d;
+    ;
+}
+
+
+
+button:disabled {
+    color: black;
+    background-color: #6b2713;
+}
+
+
+

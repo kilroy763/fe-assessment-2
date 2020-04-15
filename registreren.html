@@ -23,14 +23,14 @@
       <input type="email" id="email"  placeholder="jan@gmail.com" />
 
       <label for="password">Wachtwoord</label>
-      <input type="password" id="password" placeholder="******" />
+      <input type="password" id="password" placeholder="******"  oninput="bijna()" />
 
       <label for="password2">Herhaal Wachtwoord</label>
-      <input type="password" id="password" placeholder="******" />
-
+      <input type="password" id="password2" placeholder="******"  oninput="toonmeer()"/>
+      <p id="update"></p>
     </fieldset>
 
-    <fieldset>
+    <fieldset id="field2">
       <legend>Persoonlijke gegevens</legend>
       <label for="age">Geboortedatum</label>
       <input type="date" id="age" >
@@ -39,7 +39,7 @@
       <input type="text" id="woonplaats" placeholder="Amsterdam">
 
 
-        <fieldset class="test">
+        <fieldset>
           <legend>Ik ben een</legend>
           <p>Ik ben een:</p>
           <select>
@@ -64,8 +64,8 @@
       <img src="img/user.png" alt="afbeelding voorbeeld">
 
     </fieldset>
-    <button>Inloggen</button>
-    <button  onclick="waarde()"> Registeren</button>
+    <button id="button">Inloggen</button>
+    <button id="button2" onclick="waarde()"> Registeren</button>
 
   </form>
 
